@@ -1,3 +1,19 @@
+What is SQL? How important it is?
+SQL Structured Query Language in RDBMS Relational Database Management System 
+is a primary "Data Capturing" tool, and an important section to turn business questions into analytics questions.
+Sometimes directly affect the feasibility of projects.
+Critical in BA BI interviews
+
+How to solve SQL problems?
+1. Understand the question: What are the metrics?(e.g. How do to A/B testing using SQL?)
+2. What data is needed? (Reverse thinking)
+3. Where to obtain data? 
+4. How to calculate with the obtained data?
+
+What are the challenges during tech interview?
+RDBMS, formed by 2-D tables and their connections in between.
+
+
 A field is a column in a table that is designed to maintain specific information about every record in the table.
 A record, also called a row, is each individual entry that exists in a table.
 A column is a vertical entity in a table that contains all information associated with a specific field in a table.
