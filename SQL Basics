@@ -1,0 +1,3 @@
+A field is a column in a table that is designed to maintain specific information about every record in the table.
+A record, also called a row, is each individual entry that exists in a table.
+A column is a vertical entity in a table that contains all information associated with a specific field in a table.
