@@ -11,9 +11,44 @@ How to solve SQL problems?
 4. How to calculate with the obtained data?
 
 What are the challenges during tech interview?
-RDBMS, formed by 2-D tables and their connections in between.
-
-
+1. RDBMS, formed by 2-D tables and their connections in between.
+Row and Column
 A field is a column in a table that is designed to maintain specific information about every record in the table.
 A record, also called a row, is each individual entry that exists in a table.
 A column is a vertical entity in a table that contains all information associated with a specific field in a table.
+Cell is 1-D
+Join
+2. Understand Business Situation
+In the 1st question asked, try to understand the background info and ask questions to clarify
+3. Express data needed in business with SQL
+By practice and limit by time
+4. Follow-Up questions
+e.g. Why left join not inner join? Safe divide(AVOID Divide by 0?
+
+Like and Wildcards
+The LIKE operator is used in WHERE clause to search for a specific pattern in a column
+2 wildcards in conjunction with LIKE:
+% represents 0, 1, or N chars
+_ represents single char
+
+Aggregate Functions
+Min(), Max(), Count(), Sum(), Ave()
+How Count(), Ave(), Sum() handle NULL value?
+1. Count()
+If all values == NULL, return 0
+If mixed NULL with not-NULL, ignore all NULL, COUNT all Not-NULL value
+2. Sum()
+If all == NULL, return NULL. If mixed, SUM all not-null value
+3. Ave()
+IF all == NULL, return NULL. If mixed, AVE all not-null value
+
+Logic Query Processing
+FROM --> WHERE --> GROUP BY --> HAVING and SELECT --> ORDER BY
+
+Join
+Single table has limited info. JOIN is used to combine or rows from 2+ tables
+-> INNER JOIN
+  # 从左边Table 1st row开始，根据on的条件，match右边Table所有的row,有多少,match多少；If no match, drop the entire row 
+-> LEFT JOIN/RIGHT JOIN
+-> FULL JOIN
+-> Self Join(Special case)
